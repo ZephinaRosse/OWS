@@ -14,8 +14,11 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="Azure.Identity" Version="1.14.2" />
+    <PackageReference Include="BouncyCastle.Cryptography" Version="2.6.1" />
+    <PackageReference Include="Microsoft.Extensions.Caching.Memory" Version="9.0.7" />
+    <PackageReference Include="Microsoft.IdentityModel.JsonWebTokens" Version="8.13.0" />
     <PackageReference Include="Serilog.AspNetCore" Version="8.0.1" />
-    <PackageReference Include="Serilog.Enrichers.ClientInfo" Version="2.0.3" />
     <PackageReference Include="Serilog.Enrichers.CorrelationId" Version="3.0.1" />
     <PackageReference Include="Serilog.Enrichers.Environment" Version="2.3.0" />
     <PackageReference Include="Serilog.Exceptions" Version="8.4.0" />
@@ -32,6 +35,9 @@
     <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="6.6.1" />
     <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="6.6.1" />
     <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="6.6.1" />
+    <PackageReference Include="System.Formats.Asn1" Version="9.0.7" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.13.0" />
+    <PackageReference Include="System.Text.Json" Version="9.0.7" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\OWSData\OWSData.csproj" />
